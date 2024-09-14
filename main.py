@@ -44,7 +44,7 @@ def scrape_top_gainers(url):
 
 def get_current_date():
     """Return the current date formatted as DD-MM-YYYY."""
-    return datetime.now().strftime("%d %B %Y"))
+    return datetime.now().strftime("%d %B %Y")
 
 def create_wp_post_content(nse_gainers, bse_gainers):
     current_date = get_current_date()
