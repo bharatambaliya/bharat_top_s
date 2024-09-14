@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from requests.auth import HTTPBasicAuth
+import os
 
 # WordPress API Configuration
 WP_SITE_URL = os.environ.get('WP_SITE_URL')
